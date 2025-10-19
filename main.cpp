@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
         free_data(&data);
         open_file(&file, "data_con_ampolleta_lin2.txt");
         asign_data(&file, &data);
-        grafica(&data, "Grafico N°3: linealizado en función de la Corriente (Con ampolleta)", "Corriente⁻¹(A⁻¹)", "Voltaje (V)");
+        grafica(&data, "Grafico N°3: linealizado en función de la Corriente (Con ampolleta)", "Corriente(A)", "Raiz(Voltaje (V))");
     }
 
    
