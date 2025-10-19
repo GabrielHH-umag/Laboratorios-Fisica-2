@@ -30,15 +30,15 @@ int main(int argc, char *argv[])
         //lab 2
         open_file(&file, "data_sin_ampolleta_2.txt");
         asign_data(&file, &data);
-        grafica(&data, "Voltaje en función de la Corriente", "Corriente(a)", "Voltaje (V)");
+        grafica(&data, "Grafico N°1: Voltaje en función de la Corriente", "Corriente(A)", "Voltaje (V)");
         free_data(&data);
         open_file(&file, "data_con_ampolleta_sin_lin2.txt");
         asign_data(&file, &data);
-        grafica(&data, "Voltaje en función de la Corriente (Con ampolleta)", "Corriente(A)", "Voltaje (V)");
+        grafica(&data, "Grafico N°2:Voltaje en función de la Corriente (Con ampolleta)", "Corriente(A)", "Voltaje (V)");
         free_data(&data);
         open_file(&file, "data_con_ampolleta_lin2.txt");
         asign_data(&file, &data);
-        grafica(&data, "Voltaje linealizado en función de la Corriente (Con ampolleta)", "Corriente⁻¹(A⁻¹)", "Voltaje (V)");
+        grafica(&data, "Grafico N°3: linealizado en función de la Corriente (Con ampolleta)", "Corriente⁻¹(A⁻¹)", "Voltaje (V)");
     }
 
    
